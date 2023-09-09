@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div className="h-screen w-10/12 px-14 mx-auto max-w-screen-xl pt-24">
-      <h1 className="text-6xl lg:text-9xl md:text-7xl font-semibold tracking-tighter text-gray-700 mb-11 md:mb-14 pb-4 md:pb-4 bg-gradient-to-br from-orange-500 to-amber-200 text-transparent bg-clip-text text-left">
+      <h1 className="text-6xl lg:text-9xl md:text-7xl font-semibold tracking-tighter text-gray-700 mb-11 md:mb-14 pb-4 md:pb-4 bg-gradient-to-br from-orange-500 to-amber-200 text-transparent bg-clip-text text-left font-link">
 
         Rakib,<br />
         Experience<br />
