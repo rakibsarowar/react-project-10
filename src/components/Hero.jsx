@@ -13,7 +13,7 @@ const Hero = () => {
           <a direction="up" className="ease-in font-normal underline underline-offset-8 decoration-2 decoration-amber-400 text-white hover:text-white hover:decoration-white" href="/journal/">journal</a>
         </p>
         <p className="mb-10 leading-relaxed font-normal subpixel-antialiased">
-          Real passion for human-centered design solutions, also have extensive experience as Front End developer. Read my journal or my projects if you want to know more about me.
+          Real passion for human-centered design solutions, also have extensive experience as Front End developer.
           <a direction="up" className="ease-in font-normal underline underline-offset-8 decoration-2 decoration-amber-400 text-white hover:text-white hover:decoration-white" href="/journal/">journal</a>
         </p>
       </div>
