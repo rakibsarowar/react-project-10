@@ -5,7 +5,7 @@ const Hero = () => {
 
         Rakib,<br />
         Experience<br />
-        Developer
+        React Developer
       </h1>
       <div className="text-xl md:text-2xl text-gray-400">
         <p className="mb-10 leading-relaxed font-normal subpixel-antialiased">
