@@ -2,6 +2,8 @@ import { Outlet } from "react-router-dom";
 import Hero from "../Hero";
 import Nav from "../Nav";
 import Project from "../Project";
+import Thank from "./Thank";
+import Footer from "../Footer";
 
 const Main = () => {
     return (
@@ -12,6 +14,8 @@ const Main = () => {
             </div>
             <Hero></Hero>
             <Project></Project>
+            <Thank></Thank>
+            <Footer></Footer>
             <Outlet></Outlet>
         </div>
     );
