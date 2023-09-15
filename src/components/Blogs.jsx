@@ -3,7 +3,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='bg-white'>
+        <div className='bg-slate-100'>
             <div className="container mx-auto px-5 pt-0 mb-10 md:pt-0 md:mb-24">
                 <div className="grid grid-cols-12 gap-4">
                     <div className="col-span-12 px-0 sm:col-start-1 sm:col-span-12 sm:px-0 lg:col-start-1 lg:col-span-8 lg:px-0 xl:col-span-6 xl:col-start-3 2xl:col-span-6 2xl:col-start-3">

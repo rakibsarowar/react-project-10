@@ -5,7 +5,6 @@ import Project from "../Project";
 import Thank from "./Thank";
 import Footer from "../Footer";
 import Blogs from "../Blogs";
-
 const Main = () => {
     return (
         <div className="bg-gray-900 ">
