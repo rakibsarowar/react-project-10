@@ -4,6 +4,7 @@ import Nav from "../Nav";
 import Project from "../Project";
 import Thank from "./Thank";
 import Footer from "../Footer";
+import Blogs from "../Blogs";
 
 const Main = () => {
     return (
@@ -14,6 +15,7 @@ const Main = () => {
             </div>
             <Hero></Hero>
             <Project></Project>
+            <Blogs></Blogs>
             <Thank></Thank>
             <Footer></Footer>
             <Outlet></Outlet>
