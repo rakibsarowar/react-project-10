@@ -25,7 +25,7 @@ const Hero = () => {
 
     <>
 
-      <div className="container mx-auto pt-0 mb-16 md:pt-16 md:mb-20 sm font-sans relative">
+      <div className="container mx-auto pt-16 mb-16 md:pt-16 md:mb-20 sm font-sans relative">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 px-0 sm:col-start-1 sm:col-span-12 sm:px-0 lg:col-start-1 lg:col-span-12 lg:px-0 xl:col-span-8 xl:col-start-3 2xl:col-span-8 2xl:col-start-3">
             <div>
@@ -39,12 +39,18 @@ const Hero = () => {
                 <p className="mb-10 leading-relaxed font-normal subpixel-antialiased">
                   I am an aspiring MERN & MEVN Stack Developer with strong knowledge of JavaScript, Es6, React , Vue, Express & MongoDB. I always seek out new knowledge, technology and actively develop my skills.
                 </p>
-                <p className="mb-10 leading-relaxed font-normal subpixel-antialiased">
-                  Also, I love to connect with new friends and share my knowledge & thoughts in social media. 
-                  <a direction="up" className="ease-in font-normal underline underline-offset-8 decoration-2 decoration-amber-400 text-white hover:text-white hover:decoration-white" href="https://www.linkedin.com/in/rakibsarowar/"> LinkedIn</a> <span>| </span>  
+                <p className="mb-2 leading-relaxed font-normal subpixel-antialiased">
+                  Also, I love to connect with new friends and share my knowledge & thoughts in social media.
+                  <a direction="up" className="ease-in font-normal underline underline-offset-8 decoration-2 decoration-amber-400 text-white hover:text-white hover:decoration-white" href="https://www.linkedin.com/in/rakibsarowar/"> LinkedIn</a> <span>| </span>
                   <a direction="up" className="ease-in font-normal underline underline-offset-8 decoration-2 decoration-amber-400 text-white hover:text-white hover:decoration-white" href="https://github.com/rakibsarowar">GitHub</a>
                 </p>
               </div>
+
+              <div className="pb-8">
+                <a direction="up" duration="0.7" bg="white" className="mt-10 px-10 text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg md:text-xl px-7 py-4 text-center mb-7 inline-block" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease" data-sal-duration="800" href="https://drive.google.com/uc?export=download&amp;id=1Wv1K-0Bm3-Sjm_Ki0V-fFnT0FjPCUkiJ">
+                  Resume</a>
+              </div>
+
             </div>
           </div>
         </div>
