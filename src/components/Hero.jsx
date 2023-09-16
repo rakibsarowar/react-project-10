@@ -37,12 +37,12 @@ const Hero = () => {
               </h1>
               <div className="text-xl md:text-2xl text-gray-400">
                 <p className="mb-10 leading-relaxed font-normal subpixel-antialiased">
-                  Real passion for human-centered design solutions, also have extensive experience as Front End developer. Read my journal or my projects if you want to know more about me.
-                  <a direction="up" className="ease-in font-normal underline underline-offset-8 decoration-2 decoration-amber-400 text-white hover:text-white hover:decoration-white" href="/journal/">journal</a>
+                  I am an aspiring MERN & MEVN Stack Developer with strong knowledge of JavaScript, Es6, React , Vue, Express & MongoDB. I always seek out new knowledge, technology and actively develop my skills.
                 </p>
                 <p className="mb-10 leading-relaxed font-normal subpixel-antialiased">
-                  Real passion for human-centered design solutions, also have extensive experience as Front End developer.
-                  <a direction="up" className="ease-in font-normal underline underline-offset-8 decoration-2 decoration-amber-400 text-white hover:text-white hover:decoration-white" href="/journal/">journal</a>
+                  Also, I love to connect with new friends and share my knowledge & thoughts in social media. 
+                  <a direction="up" className="ease-in font-normal underline underline-offset-8 decoration-2 decoration-amber-400 text-white hover:text-white hover:decoration-white" href="https://www.linkedin.com/in/rakibsarowar/"> LinkedIn</a> <span>| </span>  
+                  <a direction="up" className="ease-in font-normal underline underline-offset-8 decoration-2 decoration-amber-400 text-white hover:text-white hover:decoration-white" href="https://github.com/rakibsarowar">GitHub</a>
                 </p>
               </div>
             </div>

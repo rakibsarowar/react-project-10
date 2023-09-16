@@ -7,7 +7,7 @@ const Nav = () => {
                         <div className="col-span-12 px-0 sm:col-start-1 sm:col-span-12 sm:px-0 lg:col-start-1 lg:col-span-12 lg:px-0 xl:col-span-8 xl:col-start-3 2xl:col-span-8 2xl:col-start-3">
                             <nav className="items-center justify-between lg:justify-start" aria-label="Global">
                                 <div className="md:block md:ml-0 md:pr-4 md:space-x-8">
-                                    <a aria-current="page" direction="up" className="font-bold text-gray-300 hover:text-white mr-10 md:mr-0" href="/">Start</a><a direction="up" className="font-medium text-gray-300 hover:text-white mr-10 md:mr-0" href="/portfolio/">Projects</a>
+                                    <a aria-current="page" direction="up" className="font-bold text-gray-300 hover:text-white mr-10 md:mr-0" href="/">Start</a><a direction="up" className="font-medium text-gray-300 hover:text-white mr-10 md:mr-0" href="#project">Projects</a>
                                     <a direction="up" className="font-medium text-gray-300 hover:text-white mr-10 md:mr-0" href="/journal/">Journal</a>
                                     <a direction="up" className="font-medium text-gray-300 hover:text-white mr-10 md:mr-0" href="/about/">About</a>
                                 </div>

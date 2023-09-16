@@ -1,6 +1,6 @@
 const Project = () => {
     return (
-        <div>
+        <div id="project">
             <div className="container mx-auto pt-0 mb-16 md:pt-16 px-5 md:mb-20 sm font-sans relative">
                 <div className="grid grid-cols-12 gap-4">
                     <div className="col-span-12 px-0 sm:col-start-1 sm:col-span-12 sm:px-0 lg:col-start-1 lg:col-span-8 lg:px-0 xl:col-span-6 xl:col-start-3 2xl:col-span-6 2xl:col-start-3">
@@ -11,7 +11,7 @@ const Project = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-0 pb-8 pt-0 md:pb-44 md:pt-0 font-custom">
+            <div className="mt-0 pb-8 pt-0 md:pb-8 md:pt-0 font-custom">
                 <div className="container px-5 mx-auto">
                     <div className="grid grid-cols-12 gap-4">
                         <div className="col-span-12 px-0 sm:col-start-1 sm:col-span-12 sm:px-0 lg:col-start-1 lg:col-span-12 lg:px-0 xl:col-span-8 xl:col-start-3 2xl:col-span-8 2xl:col-start-3">
@@ -49,7 +49,7 @@ const Project = () => {
                 </div>
             </div>
 
-            <div className="text-center">
+            <div className="text-center pb-8">
                 <a direction="up" duration="0.7" bg="white" className="mt-10 text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-base px-7 py-4 text-center mb-7 inline-block" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease" data-sal-duration="800" href="/portfolio/">
                     More projects</a>
             </div>
