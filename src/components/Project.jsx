@@ -28,9 +28,11 @@ const Project = () => {
                                                     alt="Frictionless Shipping Address"
                                                     decoding="async"
                                                     loading="lazy"
+                                                    style={{ objectFit: 'cover', width: '100%', height: '100%' }}
                                                 />
                                             </div>
                                         </div>
+
                                     </div>
 
                                     <div className="basis-1/2 p-4 md:p-10">
@@ -51,24 +53,23 @@ const Project = () => {
 
                     <div className="grid grid-cols-12 gap-4">
 
-
                         <div className="col-span-12 px-0 sm:col-start-1 sm:col-span-12 sm:px-0 lg:col-start-1 lg:col-span-12 lg:px-0 xl:col-span-8 xl:col-start-3 2xl:col-span-8 2xl:col-start-3">
 
                             {/* code start -------------------------------------------------------------------------------------------------------- */}
                             <a direction="left" duration="1.2" bg="white" href="/tokopedia-slash-price">
+
                                 <div className="bg-gray-800 mb-10 rounded-xl md:rounded-3xl shadow-md overflow-hidden md:mb-20 md:hover:shadow-lg md:hover:-translate-y-3 ease-in delay-75 duration-100" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease" data-sal-duration="800">
                                     <div className="md:flex">
+
                                         <div className="basis-1/2 order-first md:order-last overflow-hidden bg-indigo-800">
                                             <div data-gatsby-image-wrapper className="gatsby-image-wrapper gatsby-image-wrapper-constrained h-80 w-full object-cover md:object-full md:h-full md:w-full">
                                                 <div aria-hidden="true" data-placeholder-image style={{ opacity: 0, transition: "opacity 500ms linear 0s", backgroundColor: "rgb(248, 248, 248)", position: "absolute", inset: "0px" }}></div>
-
                                                 <picture>
-
-                                                    <img src="/src/assets/thumbnail-slashprice-small.webp" alt="" />
+                                                    <img className="object-full" src="/src/assets/thumbnail-slashprice-small.webp" alt="" style={{ objectFit: 'cover', width: '100%', height: '100%' }} />
                                                 </picture>
-
                                             </div>
                                         </div>
+
                                         <div className="w-full md:w-1/2 p-4 md:p-10">
                                             <div className="tracking-wide text-sm text-teal-500 font-semibold mb-2 md:mb-4">Tokopedia Seller Platform</div>
                                             <span className="text-2xl md:text-3xl font-extrabold text-white mb-3 md:mb-6 block">Redefining Product Discount Experience</span>
@@ -84,6 +85,39 @@ const Project = () => {
 
                     </div>
 
+                    <div className="grid grid-cols-12 gap-4">
+                        <div className="col-span-12 px-0 sm:col-start-1 sm:col-span-12 sm:px-0 lg:col-start-1 lg:col-span-12 lg:px-0 xl:col-span-8 xl:col-start-3">
+
+                            {/* code start 2 -------------------------------------------------------------------------------------------------- */}
+                            <a direction="left" duration="1.2" bg="white" href="/tokopedia-slash-price">
+
+                                <div className="bg-gray-800 mb-10 rounded-xl md:rounded-3xl shadow-md overflow-hidden md:mb-20 md:hover:shadow-lg md:hover:-translate-y-3 ease-in delay-75 duration-100" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease" data-sal-duration="800">
+
+                                    <div className="md:flex">
+
+                                        <div className="basis-1/2 order-first md:order-last  bg-indigo-800">
+                                            <div className="gatsby-image-wrapper gatsby-image-wrapper-constrained h-80 w-full object-cover md:object-full md:h-full md:w-full">
+                                                <div aria-hidden="true" data-placeholder-image style={{ opacity: 0, transition: "opacity 500ms linear 0s", backgroundColor: "rgb(248, 248, 248)", position: "absolute", inset: "0px" }}></div>
+                                                <picture >
+                                                    <img src="/src/assets/thumbnail-slashprice-small.webp" alt="" style={{ objectFit: 'cover', width: '100%', height: '100%' }} />
+                                                </picture>
+                                            </div>
+                                        </div>
+
+                                        <div className="w-full md:w-1/2 p-4 md:p-10">
+                                            <div className="tracking-wide text-sm text-teal-500 font-semibold mb-2 md:mb-4">Tokopedia Seller Platform</div>
+                                            <span className="text-2xl md:text-3xl font-extrabold text-white mb-3 md:mb-6 block">Redefining Product Discount Experience</span>
+                                            <p className="text-gray-400 text-base md:text-lg font-normal mb-10 md:mb-20">How to provide an easy-to-use, hassle-free, and flexible platform that sellers can use to make their process of discount activation.</p>
+                                            <span className="text-white font-custom font-semibold text-base">View work → </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                            {/* code end -------------------------------------------------------------------------------------------------------- */}
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
